@@ -1,15 +1,34 @@
 body {
     background-color: #fff;
-    font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
 }
 
 .contact:hover, .contact:focus {
-    color: #31d0aa;
+    color: #404bbf;
+}
+
+.contact {
+color: #434455;
+
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio {
+    color: #f4f4fd;
+}
+
+span {
+    color: #2e2f42;
 }
 
 nav {
@@ -21,6 +40,14 @@ nav {
     color: #2e2f42;
 }
 
+.navigation {
+    color: #2e2f42;
+}
+
+.navigation:hover, .navigation:focus {
+    color: #404bbf;
+}
+
 address {
     font-weight: 400;
     font-size: 16px;
@@ -28,11 +55,10 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    font-style: normal;
 }
 .solutions-text {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
     text-align: center;
     font-weight: 700;
     font-size: 56px;
@@ -43,12 +69,9 @@ address {
     color: #fff;
 }
 
-button {
+.button-one {
     background-color: #4d5ae5;
     border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -56,6 +79,11 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-one:hover, .button-one:focus {
+    background-color: #404BBF;
 }
 
 h2 {
@@ -66,10 +94,37 @@ h2 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-align: center;
 }
 
-h3 {
+.headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.list {
+    background-color: #FFFFFF;
+}
+
+.sub-headline {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -91,6 +146,14 @@ ul {
     list-style-type: none;
 }
 
+.footer {
+    background-color: #2e2f42;
+}
 
+.text-footer {
+    line-height: 1.5
+    color: #f4f4fd;
+    etter-spacing: 0.02em;
+}
 
 
