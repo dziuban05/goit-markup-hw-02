@@ -57,13 +57,16 @@ address {
     color: #2e2f42;
     font-style: normal;
 }
-.solutions-text {
+
+.solutions {
     background-color: #2e2f42;
+}
+
+.solutions-text {
     text-align: center;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -85,21 +88,11 @@ address {
     background-color: #404BBF;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
 .headline {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
